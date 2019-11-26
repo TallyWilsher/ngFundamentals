@@ -11,7 +11,7 @@ import { Component } from '@angular/core'
     ` 
 })
 
-
+//ythis is a change
 export class EventListComponent {
     event1 = { 
         id: 1,
