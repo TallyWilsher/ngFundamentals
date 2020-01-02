@@ -5,7 +5,6 @@ import { ToastrService } from '../common/toastr.service';
 declare let toastr
 
 @Component ({
-    selector: 'events-list',
     template: `
     <div>
         <h1>Upcoming Angular Events</h1>
@@ -19,7 +18,7 @@ declare let toastr
     ` 
 })
 
-export class EventListComponent implements OnInit{
+export class EventsListComponent implements OnInit{
     events: any[]
 
     constructor(private eventService: EventService, private toastr: ToastrService) {
